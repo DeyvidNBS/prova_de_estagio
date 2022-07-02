@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    padding: 20px;
+}
+
+#cabecalho {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #324A71;
+}
+
+#cabecalho .navegacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cabecalho .navegacao ul {
+    margin-right: 50px;
+}
+
+#cabecalho .navegacao li {
+    display: inline-block;
+}
+
+#cabecalho nav li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 25px 50px;
+    transition: all 0.2s linear;
+    border: #324a7100 5px solid;
+}
+
+#cabecalho nav li a:hover {
+    border-bottom: rgb(255, 166, 0) 5px solid;
+    transition: 0.3s all ease;
+
+}
+
+#cabecalho #logo {
+    width: 150px;
+    margin-left: 50px;
+}
+
+#cabecalho nav li a:hover {
+    border-bottom: #FFBB00 5px solid;
+}
+
+.container #foto {
+    margin-top: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#infraestrutura .container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 20px;
+
+}
+
+#infraestrutura .container img {
+    position: relative;
+    width: 270px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.container .imagens {
+    position: relative;
+    background-color: rgb(225, 225, 225);
+    width: 270px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+#infraestrutura h2 {
+    text-align: center;
+    font-size: 45px;
+    padding: 15px;
+    color: #324A71;
+}
+
+.container .imagens p {
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+}
+
+#processo .seletivo {
+    background-color: #FFBB00;
+    display: grid;
+    padding: 50px;
+    color: #324A71;
+    grid-template-columns: repeat(2, auto);
+    gap: 50px;
+}
+
+#processo .seletivo h2 {
+    font-size: 50px;
+}
+
+#processo .seletivo p {
+    font-size: 25px;
+    text-align: justify;
+}
+
+#processo .seletivo #inscrevase {
+    background: -webkit-gradient(linear, left top, right top, from(#324A71), to(#993399)) no-repeat;
+    cursor: pointer;
+    width: 300px;
+    padding: 20px;
+    border-radius: 100px;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+#processo .seletivo img {
+    width: 600px;
+    border-radius: 10px;
+    padding: 0;
+}
+
+#rodape {
+    width: 100%;
+    background-color: #324A71;
+    text-align: center;
+    align-items: center;
+
+}
+
+#rodape #texto {
+    color: #fff;
+    padding: 30px;
+    font-size: 10pt;
+    line-height: 2;
+}
+
+#caixatexto {
+    padding: 20px;
+}
